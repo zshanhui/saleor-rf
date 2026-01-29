@@ -310,6 +310,7 @@ INSTALLED_APPS = [
     "saleor.giftcard",
     "saleor.product",
     "saleor.attribute",
+    "saleor.b2b",
     "saleor.channel",
     "saleor.checkout",
     "saleor.core",

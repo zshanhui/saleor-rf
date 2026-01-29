@@ -1,6 +1,7 @@
 DOC_CATEGORY_APPS = "Apps"
 DOC_CATEGORY_ATTRIBUTES = "Attributes"
 DOC_CATEGORY_AUTH = "Authentication"
+DOC_CATEGORY_B2B = "B2B"
 DOC_CATEGORY_CHANNELS = "Channels"
 DOC_CATEGORY_CHECKOUT = "Checkout"
 DOC_CATEGORY_DISCOUNTS = "Discounts"
@@ -29,6 +30,12 @@ DOC_CATEGORY_MAP = {
     "app.AppToken": DOC_CATEGORY_APPS,
     "app.AppExtension": DOC_CATEGORY_APPS,
     "app.AppInstallation": DOC_CATEGORY_APPS,
+    "b2b.PartnershipTier": DOC_CATEGORY_B2B,
+    "b2b.Business": DOC_CATEGORY_B2B,
+    "b2b.BusinessUser": DOC_CATEGORY_B2B,
+    "b2b.TierPricing": DOC_CATEGORY_B2B,
+    "b2b.BusinessOrder": DOC_CATEGORY_B2B,
+    "b2b.BusinessEvent": DOC_CATEGORY_B2B,
     "attribute.Attribute": DOC_CATEGORY_ATTRIBUTES,
     "attribute.AttributeTranslation": DOC_CATEGORY_ATTRIBUTES,
     "attribute.AttributeValue": DOC_CATEGORY_ATTRIBUTES,

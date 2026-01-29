@@ -85,9 +85,17 @@ class SitePermissions(BasePermissionEnum):
     MANAGE_TRANSLATIONS = "site.manage_translations"
 
 
+class B2BPermissions(BasePermissionEnum):
+    MANAGE_B2B = "b2b.manage_b2b"
+    MANAGE_BUSINESSES = "b2b.manage_businesses"
+    MANAGE_PARTNERSHIP_TIERS = "b2b.manage_partnership_tiers"
+    MANAGE_B2B_ORDERS = "b2b.manage_b2b_orders"
+
+
 PERMISSIONS_ENUMS = [
     AccountPermissions,
     AppPermission,
+    B2BPermissions,
     CheckoutPermissions,
     ChannelPermissions,
     DiscountPermissions,

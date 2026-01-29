@@ -21,6 +21,7 @@ from .account.schema import AccountMutations, AccountQueries
 from .app.schema import AppMutations, AppQueries
 from .attribute.schema import AttributeMutations, AttributeQueries
 from .attribute.types import ASSIGNED_ATTRIBUTE_TYPES
+from .b2b.schema import B2BMutations, B2BQueries
 from .channel.schema import ChannelMutations, ChannelQueries
 from .checkout.schema import CheckoutMutations, CheckoutQueries
 from .core.enums import unit_enums
@@ -57,6 +58,7 @@ class Query(
     AccountQueries,
     AppQueries,
     AttributeQueries,
+    B2BQueries,
     ChannelQueries,
     CheckoutQueries,
     CoreQueries,
@@ -84,6 +86,7 @@ class Mutation(
     AccountMutations,
     AppMutations,
     AttributeMutations,
+    B2BMutations,
     ChannelMutations,
     CheckoutMutations,
     CoreMutations,
